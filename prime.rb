@@ -9,7 +9,6 @@ def prime?(int)
     divisibles.each do |number|
       if int % number == 0
         return false
-        break
       elsif number == int - 1
         return true
       else
